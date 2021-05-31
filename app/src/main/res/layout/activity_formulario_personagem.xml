@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activities.FormularioPersonagemActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"/>
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nome"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:textAlignment="viewStart"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextAltura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Altura"
+        android:inputType="numberDecimal"
+        android:singleLine="true"
+        android:textAlignment="viewStart"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextNascimento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nascimento"
+        android:inputType="date"
+        android:singleLine="true"
+        android:textAlignment="viewStart"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Telefone Celular"
+        android:inputType="phone"
+        android:singleLine="true"
+        android:textAlignment="viewStart"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextRG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="RG"
+        android:inputType="number"
+        android:singleLine="true"
+        android:textAlignment="viewStart"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextCEP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="CEP"
+        android:inputType="number"
+        android:singleLine="true"
+        android:textAlignment="viewStart"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextGenero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Genero"
+        android:inputType="textCapCharacters"
+        android:singleLine="true"
+        android:textAlignment="viewStart"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/botaoEnviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:visibility="gone"/>
+
+</LinearLayout>
